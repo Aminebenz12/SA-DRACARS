@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-
     "dev": "nodemon",
     "build": "rimraf ./dist && tsc && babel dist -d dist",
     "start": "npm run build && node dist",
